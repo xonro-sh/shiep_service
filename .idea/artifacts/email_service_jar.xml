@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="email_service:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/email_service_jar</output-path>
+    <root id="root">
+      <element id="archive" name="com.shiep.emailService-1.0.0.jar">
+        <element id="module-output" name="email_service" />
+      </element>
+      <element id="directory" name="libs">
+        <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:1.3.9" />
+        <element id="library" level="project" name="Maven: com.google.errorprone:error_prone_annotations:2.1.3" />
+        <element id="library" level="project" name="Maven: com.google.guava:guava:24.0-jre" />
+        <element id="library" level="project" name="Maven: com.google.j2objc:j2objc-annotations:1.1" />
+        <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.11" />
+        <element id="library" level="project" name="Maven: org.checkerframework:checker-compat-qual:2.0.0" />
+        <element id="library" level="project" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14" />
+        <element id="library" level="project" name="Maven: com.google.guava:guava:18.0" />
+        <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.24" />
+      </element>
+    </root>
+  </artifact>
+</component>
