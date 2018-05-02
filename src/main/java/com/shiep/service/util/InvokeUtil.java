@@ -33,7 +33,7 @@ public class InvokeUtil {
             WsRMIMessageModel mm = new WsRMIMessageModel();
             mm.setLang("cn");
             mm.setOpkey("http://services.sdk.actionsoft.com/");
-            mm.setSecId("ea771f67c0430cd62b4e079756798eea");
+            mm.setSecId("d0986221d458311363bcb36c8a57496e");
 
             mm.setSvType(cls.getSimpleName());
             mm.setSvMethod(method);
