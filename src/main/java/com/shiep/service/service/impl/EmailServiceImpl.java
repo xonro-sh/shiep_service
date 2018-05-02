@@ -2,20 +2,17 @@ package com.shiep.service.service.impl;
 
 import com.actionsoft.sdk.services.level0.IM;
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import com.google.common.base.Strings;
 import com.shiep.service.model.BaseResponse;
 import com.shiep.service.model.SendMail;
 import com.shiep.service.service.EmailService;
 import com.shiep.service.util.InvokeUtil;
 
-import javax.annotation.Resource;
 import javax.jws.WebService;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-import javax.xml.ws.WebServiceContext;
 
 /**
  * @author louie
