@@ -56,11 +56,10 @@
 
 * token生成方法：
 
-  1、向服务提供方（*上海象融信息科技有限公司*）索取签名所需key值，这里假设key值为KEY；
-  2、获取当前时间戳timestamp，这里假设时间戳为1525240885；
-  3、按照key=KEY&timestamp=TIMESTAMP的格式进行字符串拼接，如：String string="key=KEY&timestamp=1525240885";
-  4、对拼接后的字符串进行md5加密并转为小写，token=MD5(string).toLowerCase()； 
-
+  1. 向服务提供方（*上海象融信息科技有限公司*）索取签名所需key值，这里假设key值为KEY；
+  2. 获取当前时间戳timestamp，这里假设时间戳为1525240885;
+  3. 按照key=KEY&timestamp=TIMESTAMP的格式进行字符串拼接，如：String string="key=KEY&timestamp=1525240885";
+  4. 对拼接后的字符串进行md5加密并转为小写，token=MD5(string).toLowerCase()； 
 
 ```java
 String key = "KEY";
