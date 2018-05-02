@@ -4,11 +4,6 @@
     <list default="true" id="3d37b213-69d0-4c19-80f8-fa2e92e59772" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.MD" afterPath="$PROJECT_DIR$/README.MD" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/email_service_jar/com.shiep.emailService-1.0.0.jar" afterPath="$PROJECT_DIR$/out/artifacts/email_service_jar/com.shiep.emailService-1.0.0.jar" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiep/service/service/impl/EmailServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/shiep/service/service/impl/EmailServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases.java" afterPath="$PROJECT_DIR$/src/test/java/TestCases.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shiep/service/service/impl/EmailServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/shiep/service/service/impl/EmailServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases.class" afterPath="$PROJECT_DIR$/target/test-classes/TestCases.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EmailServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shiep/service/service/impl/EmailServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1142">
@@ -85,6 +80,22 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.MD" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="202">
+                <caret line="61" column="4" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+                <folding>
+                  <marker date="1525243016560" expanded="true" signature="520:750" ph="{&quot;mailFrom&quot;: &quot;1994000008&quot;...}" />
+                  <marker date="1525243016560" expanded="true" signature="1220:1268" ph="{&quot;message&quot;: &quot;56142&quot;...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -158,11 +169,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shiep/service/rmi/RMIMessageModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shiep/service/util/InvokeUtil.java" />
         <option value="$USER_HOME$/Desktop/cxf-servlet.xml" />
-        <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/src/main/java/com/shiep/service/security/ServiceInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shiep/service/service/impl/EmailServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/service-test.html" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases.java" />
+        <option value="$PROJECT_DIR$/README.MD" />
       </list>
     </option>
   </component>
@@ -608,7 +619,7 @@
       <workItem from="1524719408263" duration="17641000" />
       <workItem from="1524751474166" duration="433000" />
       <workItem from="1524752019625" duration="1549000" />
-      <workItem from="1525223406406" duration="13768000" />
+      <workItem from="1525223406406" duration="14324000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1524752098706</created>
@@ -624,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525231856800</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="删除不必要引用">
+      <created>1525242499118</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525242499118</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -639,7 +657,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56551000" />
+    <option name="totallyTimeSpent" value="57107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="0" />
@@ -719,7 +737,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
     <MESSAGE value="修复接口bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复接口bug" />
+    <MESSAGE value="删除不必要引用" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除不必要引用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -748,6 +767,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4935">
           <caret line="141" column="39" lean-forward="true" selection-start-line="141" selection-start-column="39" selection-end-line="141" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,6 +1043,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
           <caret line="136" column="24" lean-forward="true" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,20 +1125,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="307">
-            <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-            <folding>
-              <marker date="1525242415411" expanded="true" signature="521:751" ph="{&quot;mailFrom&quot;: &quot;1994000008&quot;...}" />
-              <marker date="1525242415411" expanded="true" signature="1221:1269" ph="{&quot;message&quot;: &quot;56142&quot;...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service-test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -1144,6 +1151,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="202">
+            <caret line="61" column="4" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+            <folding>
+              <marker date="1525243016560" expanded="true" signature="520:750" ph="{&quot;mailFrom&quot;: &quot;1994000008&quot;...}" />
+              <marker date="1525243016560" expanded="true" signature="1220:1268" ph="{&quot;message&quot;: &quot;56142&quot;...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
